@@ -1,2 +1,2 @@
-# supermoon simple java hierarchy example
+# supermoon simple java program example with different uses
 # SuperMoon
