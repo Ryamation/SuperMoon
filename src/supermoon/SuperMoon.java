@@ -37,6 +37,7 @@ public class SuperMoon {
         }  
         }
          public static void birthday(){
+             System.out.println("You have choosen the birthday card\n");
         Scanner scan = new Scanner(System.in);
         Scanner scanL = new Scanner(System.in);
         String strName; 
@@ -59,6 +60,7 @@ public class SuperMoon {
                 
     }
          public static void NewHome(){
+            System.out.println("You have choosen the new home card\n");
             Scanner scanL = new Scanner(System.in);
 
             String strName, Location;

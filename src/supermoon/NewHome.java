@@ -39,7 +39,7 @@ public class NewHome extends Card {
 		System.out.println("Here is your lovely moonpig card");
 		System.out.println("This card is to " + getName() + ". Who is has a new house in the "+getLocation()+" area with "+getRooms()+" rooms, congrats");
 	}
-	
+	@Override
 	public void printEnvelope()
 	{       // note  because messageCover is protected the subclass can access this directly.  
 		System.out.println("Envelope for " + getName() + _messageCover);
